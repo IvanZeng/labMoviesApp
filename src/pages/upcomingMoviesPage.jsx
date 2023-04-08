@@ -23,7 +23,7 @@ const genreFiltering = {
 
 
 const UpcomingMoviesPage = (props) => {
-  const { data, error, isLoading, isError } = useQuery("discover", getUpcomingMovies);
+  const { data, error, isLoading, isError } = useQuery("discover2", getUpcomingMovies);
   const { filterValues, setFilterValues, filterFunction } = useFiltering(
     [],
     [titleFiltering, genreFiltering]
