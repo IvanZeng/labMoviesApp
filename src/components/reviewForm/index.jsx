@@ -28,7 +28,7 @@ const ReviewForm = ({ movie }) => {
   } = useForm(defaultValues);
   const navigate = useNavigate();
   const context = useContext(MoviesContext);
-  const [rating, setRating] = useState(3);
+  const [rating, setRating] = useState();
   const [open, setOpen] = useState(false);  //NEW
 
 
